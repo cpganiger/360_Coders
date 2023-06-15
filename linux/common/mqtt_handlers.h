@@ -23,5 +23,13 @@
 #define QOS 1
 #define TIMEOUT 10000L
 
+#define ADDRESS "tcp://broker.hivemq.com:1883"
+#define CLIENTID "Linux_App"
+#define TOPIC "360_coders"
+#define TOPIC_PACKET "360_coders_packets"
+
+int user_app();
+void init_mqtt();
+void exit_app();
 
 #endif

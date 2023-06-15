@@ -26,3 +26,6 @@
 *.app
 *.bin
 *.hex
+
+# External libraries
+linux/ext_libraries
