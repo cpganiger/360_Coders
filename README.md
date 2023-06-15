@@ -7,6 +7,7 @@
 * Linux Application & Server
 * Esp8266 Module
 * Github & Other Libraries
+* nRf Connect
 
 # Applications
 * Hobbyist makers developing IOT protypes for various platforms-Connected Libraries and Devices for Learning, Teaching, Research & Innovation
