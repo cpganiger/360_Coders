@@ -15,6 +15,14 @@
 *	Transportation and sensor networks connected to single central server.
 *	Medical Data transfer for vital signs
 
+# Advantages
+* Cost Effective
+* Open source Platforms
+* Optimised for power
+* Platform Independent
+* Low Memory Usage
+
+
 
 # Block Diagram
 
