@@ -2,7 +2,8 @@
 
 # Block Diagram
 
-![Uploading BLOCK DIAGRAM.jpg…]()
+
+![BLOCK DIAGRAM](https://github.com/cpganiger/360_Coders/assets/47321977/dc5dffe9-779a-485e-aef3-404fea2a6ef2)
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3b20c7c3ec7f4734b42cc0d04dcf3fb2)](https://app.codacy.com/manual/cpganiger/360_Coders?utm_source=github.com&utm_medium=referral&utm_content=cpganiger/360_Coders&utm_campaign=Badge_Grade_Dashboard)
 
