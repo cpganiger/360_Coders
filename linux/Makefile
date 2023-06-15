@@ -1,11 +1,13 @@
 PROJECT_NAME =360_linux_app_V1_15062023
 
 SRC = app/app_main.c\
+app/timed_activity.c\
 common/mqtt_handlers.c\
 common/packetiser.c\
 ext_libraries/libcrc/src/crc16.c
 
 INC = -Icommon\
+-Iapp\
 -Iext_libraries/libcrc/include
 
 LIBRARY_NAME = paho-mqtt3a

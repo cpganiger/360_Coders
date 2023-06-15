@@ -32,4 +32,9 @@ int user_app();
 void init_mqtt();
 void exit_app();
 
+status_t listen_to_topic(char* topic_name);
+int test_packet_sender();
+
+
+
 #endif

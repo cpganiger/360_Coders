@@ -13,7 +13,8 @@
 
 #define HEADER_LENGTH       (sizeof(headers_t))
 #define CRC_LENGTH          (2)
-#define MAX_DATA_LENGTH     (100 - HEADER_LENGTH - CRC_LENGTH)
+//#define MAX_DATA_LENGTH     (10 - HEADER_LENGTH - CRC_LENGTH)
+#define MAX_DATA_LENGTH     (10)
 #define MAX_PACKET_LENGTH   (sizeof(packet_t))
 
 #include "stdint.h"
@@ -32,10 +33,10 @@ typedef enum  __attribute__((__packed__)) status_t
 
 typedef struct __attribute__((__packed__)) headers_t
 {
+    uint8_t     source;
+    uint8_t     destination;
     uint8_t     type;
-    uint8_t     id;
     uint8_t     data_length;
-    time_t      timestamp;
 }headers_t;
 
 typedef struct __attribute__((__packed__)) packet_t
@@ -43,6 +44,7 @@ typedef struct __attribute__((__packed__)) packet_t
     headers_t   headers;
     uint8_t     data[MAX_DATA_LENGTH];
     uint16_t    crc;
+    time_t      timestamp;
 }packet_t;
 
 

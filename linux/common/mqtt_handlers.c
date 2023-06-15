@@ -1,5 +1,6 @@
 #include "mqtt_handlers.h"
 #include "packetiser.h"
+#include "app_main.h"
 
 MQTTClient_deliveryToken deliveredtoken;
 MQTTClient client;
@@ -45,6 +46,12 @@ void connlost(void *context, char *cause)
 
 void exit_app()
 {
+      if ((rc = MQTTClient_disconnect(client, 10000)) != MQTTCLIENT_SUCCESS)
+    {
+        printf("Failed to disconnect, return code %d\n", rc);
+        rc = EXIT_FAILURE;
+    }
+exit:
 destroy_exit:
     MQTTClient_destroy(&client);
 }
@@ -81,30 +88,22 @@ void init_mqtt()
     printf("Connected to MQTT Broker\n");
 }
 
-status_t subscribe_to_topic(char* topic_to_subsrcibe)
+status_t listen_to_topic(char* topic_name)
 {
-    if ((rc = MQTTClient_subscribe(client, TOPIC_PACKET, QOS)) != MQTTCLIENT_SUCCESS)
+  if ((rc = MQTTClient_subscribe(client, topic_name, QOS)) != MQTTCLIENT_SUCCESS)
     {
         printf("Failed to subscribe, return code %d\n", rc);
         rc = EXIT_FAILURE;
         return ERROR;
     }
+    return SUCCESS;
 }
 
-int user_app()
+int test_packet_sender()
 {
 
-    printf("Subscribing to topic %s\nfor client %s using QoS%d\n", TOPIC_PACKET,
-           CLIENTID,
-           QOS);
-
-    if ((rc = MQTTClient_subscribe(client, TOPIC_PACKET, QOS)) != MQTTCLIENT_SUCCESS)
-    {
-        printf("Failed to subscribe, return code %d\n", rc);
-        rc = EXIT_FAILURE;
-    }
-
-    while (1)
+    //listen_to_topic(MY_TOPIC_NAME);
+   // while (1)
     {
         pubmsg.qos = QOS;
         pubmsg.retained = 0;
@@ -112,9 +111,12 @@ int user_app()
         memset((uint8_t *)&tx_packet, '\0', MAX_PACKET_LENGTH);
 
         tx_packet.headers.type = 0xAA;
-        tx_packet.headers.id = 0x55;
-        tx_packet.headers.timestamp = time(NULL);
-        // printf("packet_header.timestamp = %ld, size = %d\n", tx_packet.headers.timestamp, sizeof(tx_packet.headers.timestamp));
+        
+        tx_packet.headers.source = 0x55;
+        tx_packet.headers.destination = 0x55;
+
+        tx_packet.timestamp = time(NULL);
+        // printf("packet_header.timestamp = %ld, size = %d\n", tx_packet.timestamp, sizeof(tx_packet.timestamp));
 
         uint8_t input_data[4] = {0xDE, 0xAD, 0XBE, 0XEF};
         tx_packet.headers.data_length = 4;
@@ -122,16 +124,15 @@ int user_app()
         pubmsg.payload = &tx_packet;
         pubmsg.payloadlen = MAX_PACKET_LENGTH;
 
-        printf("App main,Headers %x,  %x, %d, %ld\n", tx_packet.headers.id,
-               tx_packet.headers.type,
-               tx_packet.headers.data_length,
-               tx_packet.headers.timestamp);
+        // printf("App main,Headers %x,  %x, %d, %ld\n", tx_packet.headers.id,
+        //        tx_packet.headers.type,
+        //        tx_packet.headers.data_length,
+        //        tx_packet.timestamp);
 
         packetiser(&tx_packet, input_data, 4);
 
         display_packet(&tx_packet);
-#if 1
-        if ((rc = MQTTClient_publishMessage(client, TOPIC_PACKET, &pubmsg, &token)) != MQTTCLIENT_SUCCESS)
+        if ((rc = MQTTClient_publishMessage(client, MY_TOPIC_NAME, &pubmsg, &token)) != MQTTCLIENT_SUCCESS)
         {
             printf("Failed to publish message, return code %d\n", rc);
             rc = EXIT_FAILURE;
@@ -143,24 +144,11 @@ int user_app()
                    (char *)pubmsg.payload, TOPIC, CLIENTID);
             while (deliveredtoken != token)
             {
-#if defined(_WIN32)
-                Sleep(100);
-#else
-
-                sleep(10);
-#endif
-            }
+                usleep(100);
+           }
         }
-#endif
     }
-    if ((rc = MQTTClient_disconnect(client, 10000)) != MQTTCLIENT_SUCCESS)
-    {
-        printf("Failed to disconnect, return code %d\n", rc);
-        rc = EXIT_FAILURE;
-    }
-    exit_app();
-exit:
-    return rc;
+  
 }
 
 

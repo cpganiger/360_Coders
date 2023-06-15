@@ -15,10 +15,15 @@
 #include "packetiser.h"
 #include "mqtt_handlers.h"
 
+#include "unistd.h"
+#include "signal.h"
+
 #define ADDRESS "tcp://broker.hivemq.com:1883"
 #define CLIENTID "Linux_App"
 #define TOPIC "360_coders"
-#define TOPIC_PACKET "360_coders_packets"
+#define MY_TOPIC_NAME "360_coders"
+
+void timed_activity_init();
 
 
 #endif
