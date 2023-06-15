@@ -12,4 +12,4 @@ jobs:
       - name: Install cppcheck
         run: sudo apt-get -y install cppcheck
       - name: Cppcheck code
-        run: cppcheck --enable=all linux -ilinux/ext_libraries
+        run: cppcheck --enable=all Linux -iLinux/ext_libraries
