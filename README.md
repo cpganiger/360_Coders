@@ -1,5 +1,9 @@
 # 360 Coding
 
+# Block Diagram
+
+![Uploading BLOCK DIAGRAM.jpg…]()
+
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3b20c7c3ec7f4734b42cc0d04dcf3fb2)](https://app.codacy.com/manual/cpganiger/360_Coders?utm_source=github.com&utm_medium=referral&utm_content=cpganiger/360_Coders&utm_campaign=Badge_Grade_Dashboard)
 
 |cppcheck|Codacy|
