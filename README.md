@@ -4,7 +4,7 @@
 
 |cppcheck|Codacy|
 |:--:|:--:|
-|![cppcheck-action](https://github.com/360_Coders/linux/workflows/cppcheck-action/badge.svg)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/3ac7e2a959a24fa4b5d1b9c1c886ff75)](https://www.codacy.com/manual/360_Coders/linux?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=stepin654321/MiniProject_Template&amp;utm_campaign=Badge_Grade)|
+|![cppcheck-action](https://github.com/cpganiger/360_Coders/workflows/cppcheck-action/badge.svg)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/3ac7e2a959a24fa4b5d1b9c1c886ff75)](https://www.codacy.com/manual/360_Coders/linux?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=stepin654321/MiniProject_Template&amp;utm_campaign=Badge_Grade)|
 ## Tools needed
 * MQTT Library
 * Makefile
