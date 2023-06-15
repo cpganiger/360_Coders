@@ -7,10 +7,10 @@
 * Linux Application & Server
 * Esp8266 Module
 * Github & Other Libraries
-* nRf Connect
+* nRf Connect & Segger embedded studio
 
 # Applications
-* Hobbyist makers developing IOT protypes for various platforms-Connected Libraries and Devices for Learning, Teaching, Research & Innovation
+* Hobbyist makers developing IOT protypes for various platforms like Connected Devices and Libraries for Learning, Teaching, Research & Innovation
 *	Industrial monitors for control systems
 *	Transportation and sensor networks connected to single central server.
 *	Medical Data transfer for vital signs
