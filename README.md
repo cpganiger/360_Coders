@@ -2,6 +2,12 @@
 # Agenda
 * Creating a Framework for IoT based application using open source platform & showcasing the 360^ code for the same using automated libraries. 
 
+# Platforms Used
+* Mqtt Desktop & Android application
+* Linux Application & Server
+* Esp8266 Module
+* Github & Other Libraries
+
 # Block Diagram
 
 
