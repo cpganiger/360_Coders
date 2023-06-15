@@ -1,4 +1,6 @@
 # 360 Coding
+# Agenda
+* Creating a Framework for IoT based application using open source platform & showcasing the 360^ code for the same using automated libraries. 
 
 # Block Diagram
 
