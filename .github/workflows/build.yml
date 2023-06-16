@@ -13,9 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-      
-    - name: install dependencies
-      run:  git clone https://github.com/lammertb/libcrc /linux/ext_libraries
-
+    
     - name: Test build
       run:  make build -C linux
