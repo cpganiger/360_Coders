@@ -15,7 +15,7 @@
 *	Transportation and sensor networks connected to single central server.
 *	Medical Data transfer for vital signs
 
-# Advantages
+# End Goals
 * Cost Effective
 * Open source Platforms
 * Optimised for power
