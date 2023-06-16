@@ -56,7 +56,7 @@
 * [ESPRESSIF](https://www.espressif.com/en)
 * [GoogleTest](http://google.github.io/googletest/)
 
-# Exernal Repositories
+# External Repositories
 * [Paho MQTT](https://github.com/eclipse/paho.mqtt.c)
 * [Tools](https://github.com/stepin654321/MiniProject_Template)
 * [crc](https://github.com/lammertb/libcrc)
