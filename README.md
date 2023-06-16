@@ -55,6 +55,7 @@
 * [Segger](https://www.segger.com/)
 * [ESPRESSIF](https://www.espressif.com/en)
 * [GoogleTest](http://google.github.io/googletest/)
+* [MQTT Broker]()
 
 # External Repositories
 * [Paho MQTT](https://github.com/eclipse/paho.mqtt.c)
