@@ -47,6 +47,7 @@
 
 # References
 * [Paho MQTT API Documentation](https://www.eclipse.org/paho/files/mqttdoc/MQTTClient/html/index.html)
+* [Arduino](https://www.arduino.cc/)
 
 # Exernal Repositories
 * [Paho MQTT](https://github.com/eclipse/paho.mqtt.c)
