@@ -48,6 +48,12 @@
 # References
 * [Paho MQTT API Documentation](https://www.eclipse.org/paho/files/mqttdoc/MQTTClient/html/index.html)
 * [Arduino](https://www.arduino.cc/)
+* [Nordic Semiconductor](https://www.nordicsemi.com/)
+* [GitHub](https://github.com/)
+* [Bluetooth](https://www.bluetooth.com/)
+* [UNITY](https://unity.com/pages/unity-pro-buy-now?utm_source=google&utm_medium=cpc&utm_campaign=cc_dd_upr_sapac_sapac-t1_en_pu_sem-gg_acq_br-pr_2023-01_brand-st1_cc3022_ev-br_id:71700000106719832&utm_content=cc_dd_upr_apac_pu_sem_gg_ev-br_pros_x_npd_cpc_kw_sd_all_x_x_brand_id:58700008276350171&utm_term=unity&&&&&gad=1&gclid=EAIaIQobChMIi-alvtzG_wIVRBhyCh3eEgVMEAAYASAAEgJUJvD_BwE&gclsrc=aw.ds)
+* [Segger](https://www.segger.com/)
+* [ESPRESSIF](https://www.espressif.com/en)
 
 # Exernal Repositories
 * [Paho MQTT](https://github.com/eclipse/paho.mqtt.c)
