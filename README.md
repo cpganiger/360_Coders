@@ -1,14 +1,23 @@
-# 360 Coding
-# Agenda
-* Creating a Framework for IoT based application using open source platform & showcasing the 360^ code for the same using automated libraries. 
+# Framework for platform independant application development with IoT Connectivity by 360 Coding
 
-# Platforms Used
-* Mqtt Desktop & Android application
-* Linux Application & Server
-* Esp8266 Module
-* Github & Other Libraries
-* nRf Connect & Segger embedded studio
+## Agenda and Focus
+* Design a platform to connect Hardware and Software systems through IoT Protocols
+* Designed for Product developers, LResearcher and learners
 
+## Runs on
+* nRF52832 Developkent Kit - Arm® Cortex™-M4 with Bluetooth 5.3
+* ESP8266   - L106 32-bit RISC with Wi-Fi
+* linux OS  - Ubuntu 20.04
+* Desktop and Mobile - Readily available apps
+
+## Built using
+* GNU Tools on linux
+* Ardiuno forESP8266
+* Segger Embedded Studio for nRF52832
+* Free and Open Source tools 
+* GitHub
+* Codacy
+ 
 # Applications
 * Hobbyist makers developing IOT protypes for various platforms like Connected Devices and Libraries for Learning, Teaching, Research & Innovation
 *	Industrial monitors for control systems
@@ -17,14 +26,14 @@
 
 # End Goals
 * Cost Effective
-* Open source Platforms
+* Free and Open Source Tools and Applications
 * Optimised for power
 * Platform Independent
 * Low Memory Usage
 
 
 
-# Block Diagram
+# System 
 
 
 ![BLOCK DIAGRAM](https://github.com/cpganiger/360_Coders/assets/47321977/dc5dffe9-779a-485e-aef3-404fea2a6ef2)
@@ -61,5 +70,6 @@
 * [Paho MQTT](https://github.com/eclipse/paho.mqtt.c)
 * [Tools](https://github.com/stepin654321/MiniProject_Template)
 * [crc](https://github.com/lammertb/libcrc)
+* [gtest](https://github.com/google/googletest)
 
 
