@@ -1,0 +1,31 @@
+*.gcda 
+*.gcno 
+*.gcov
+.vscode
+# Doxygen Ouput
+*html
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.elf
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+
+# Executables
+*.exe
+*.out
+*.app
+*.bin
+*.hex
+
+# External libraries
+linux/ext_libraries
