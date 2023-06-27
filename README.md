@@ -55,7 +55,7 @@
 * Analysis tools
 * Documentation tools
 
-# Team 360^Coders 
+# Squad of 360^Coders 
 
  | Business Unit | PS Number | Name | Email | Blowup |
  | ------------- | --------- | ----- | ---- | ------ |
