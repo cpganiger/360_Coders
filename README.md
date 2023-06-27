@@ -63,12 +63,12 @@
 
 # Squad of 360^Coders 
 
- |       Name       |       Glowup      |
- | ---------------- | ----------------- |
- | Bharath G |   |
- | Saravana Priya C |  |
- | Adithya B K |    |
- | Chetan Ganiger |    |
+ | SL.No | Name | Glowup |
+ | ----- | ------- | ----- |
+ | `01`| Bharath G |   |
+ | `02` | Saravana Priya C |  |
+ | `03` | Adithya B K |    |
+ | `04` | Chetan Ganiger |    |
 
 
 # References
