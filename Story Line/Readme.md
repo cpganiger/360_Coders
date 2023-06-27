@@ -1,6 +1,6 @@
 ## Summary 
 
-Showcasing a development framework wherein platform Independent and Open source applicatiions like MQTT, Arduino IDE for WiFi Module, Segger Embedded Studio for NRF52832 BLE and tools on Linux are connected though network in publishing and subscribing to messages.
+Showcasing a development framework wherein platform Independent and Open source applications like MQTT, Arduino IDE for WiFi Module, Segger Embedded Studio for NRF52832 BLE and tools on Linux are connected though network in publishing and subscribing to messages.
 
 A messsaging protocol like MQTT which allows multiple end to end devices, talk to each other through publishing and subscribing to topics. The MQTT username and password from the broker should match the publisher and subscribe in order to get the connection to MQTT broker. ESP8266, a low power WiFi Module connects with the network under use reads, transmit, recieve and controls the operations as requested from broker and between the devices.
 
