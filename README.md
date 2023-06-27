@@ -41,6 +41,10 @@
 
 ![BLOCK DIAGRAM](https://github.com/cpganiger/360_Coders/assets/47321977/dc5dffe9-779a-485e-aef3-404fea2a6ef2)
 
+# Architecture
+
+![Block diagram drawio (2)](https://github.com/cpganiger/360_Coders/assets/60978907/2a5d9dbf-a6f1-4583-9da4-4a2e4c51d6b3)
+
 # Badges and Analyzers
 
 |Build|Unit Test|cppcheck|Codacy|
