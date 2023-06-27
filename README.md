@@ -66,7 +66,7 @@
  | SL.No | Name | Glowup |
  | ----- | ------- | ----- |
  | `01`| Bharath G |   |
- | `02` | Saravana Priya C |  |
+ | `02` | Saravana Priya C |![IMG_20230603_165759](https://github.com/cpganiger/360_Coders/assets/60978907/b204aec4-629c-4a14-992a-934cb2503afc) |
  | `03` | Adithya B K |    |
  | `04` | Chetan Ganiger |    |
 
