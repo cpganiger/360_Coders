@@ -60,7 +60,7 @@
  |       Name       |       Glowup      |
  | ---------------- | ----------------- |
  | Bharath G |   |
- | Saravana Priya C | ![IMG_20230627_125838](https://github.com/cpganiger/360_Coders/assets/60978907/d6d864b5-1244-4fc6-b4a3-0514041799a4) |
+ | Saravana Priya C |  |
  | Adithya B K |    |
  | Chetan Ganiger |    |
 
