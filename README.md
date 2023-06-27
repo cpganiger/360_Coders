@@ -57,12 +57,12 @@
 
 # Squad of 360^Coders 
 
- | Business Unit | PS Number | Name | Email | Glowup |
- | ------------- | --------- | ----- | ---- | ------ |
- | Global Engineering Academy | 40010753  | Bharath G | bharath.g@ltts.com |  |
- | Medical & Life Sciences Common | 40020993 | Saravana Priya C | saravanapriya.@ltts.com | ![IMG_20230627_125838](https://github.com/cpganiger/360_Coders/assets/60978907/d6d864b5-1244-4fc6-b4a3-0514041799a4) |
- | Medical & Life Sciences Common | 40020576 | Adithya B K | adithya.bk@ltts.com |   |
- | Embedded System % Platform Software | 40030395 | Chetan Ganiger | chetan.ganiger@ltts.com |   |
+ |       Name       |       Glowup      |
+ | ---------------- | ----------------- |
+ | Bharath G |   |
+ | Saravana Priya C | ![IMG_20230627_125838](https://github.com/cpganiger/360_Coders/assets/60978907/d6d864b5-1244-4fc6-b4a3-0514041799a4) |
+ | Adithya B K |    |
+ | Chetan Ganiger |    |
 
 
 # References
