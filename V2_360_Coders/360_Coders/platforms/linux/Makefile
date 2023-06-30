@@ -22,10 +22,9 @@ debug:
 run:build
 	./$(PROJECT_NAME).out
 
-test: build
-	./$(PROJECT_NAME).out
-	
-memory_analysis: build
+test:
+
+memory_analysis: 
 	valgrind ./$(PROJECT_NAME).out
 
 clean:

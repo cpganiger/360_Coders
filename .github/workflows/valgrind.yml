@@ -1,0 +1,15 @@
+
+name: valgrind-action
+on: [push]
+
+jobs:
+  build:
+    name: valgrind
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        
+      - name: Install cppcheck
+        run: sudo apt-get -y install valgrind
+      - name: Valgrind check
+        run: make memory_analysis -C linux
